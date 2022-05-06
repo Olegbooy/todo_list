@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper__content">
+
+        <div class="to-do__list">
+
+            <h1>To Do List</h1>
+
+            <div class="add__new__to-do__area">
+                <input type="text" id="description__task" placeholder="add to do">
+                <button id="add__new__to-do__btn">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="#E8E8E8"/>
+                        <rect x="18" y="10" width="4" height="20" rx="2" fill="#303285"/>
+                        <rect x="10" y="22" width="4" height="20" rx="2" transform="rotate(-90 10 22)" fill="#303285"/>
+                    </svg>                        
+                </button>
+            </div>
+
+            <div class="to-do__nav">
+                <div class="to-do__info">
+                    <div class="todo">
+                        <p>todo: <span></span></p>
+                    </div>
+                    <div class="done">
+                        <p>done: <span></span></p>
+                    </div>
+                </div>
+                <div class="btns__nav">
+                    <p class="btn__all">all</p>
+                    <p class="btn__done">done</p>
+                    <p class="btn__todo">todo</p>
+                </div>
+            </div>
+
+            <div class="to-do__list__content">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
